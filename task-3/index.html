@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery Lightbox</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <img
+        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/00/2f/67/img-20180620-wa0007-largejpg.jpg?w=1200&h=-1&s=1"
+        class="thumbnail"
+        alt="Image 1"
+      />
+      <img
+        src="https://etimg.etb2bimg.com/thumb/msid-104056670,width-1200,height-900,resizemode-4/.jpg"
+        class="thumbnail"
+        alt="Image 2"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_esr_orWuMS88WF2RNcEKbs9eH5VLObKlfQ&s"
+        class="thumbnail"
+        alt="Image 3"
+      />
+      <img
+        src="https://img.autocarpro.in/autocarpro/01eeafa8-4a73-4437-9bab-167dbcbbba5d_tharroxx.jpg"
+        class="thumbnail"
+        alt="Image 4"
+      />
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
